@@ -17,7 +17,7 @@ int main(void)
     }
     else
     {
-        printf("Sorry that was wrong The secret number was %d\n", secret_number);
+        printf("Sorry that was wrong the secret number was %d\n", secret_number);
     }
 
     return 0;
