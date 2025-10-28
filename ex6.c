@@ -9,7 +9,6 @@ int count_letters(char text[])
     int letters = 0;
     for (int i = 0, n = strlen(text); i < n; i++)
     {
-        // isalpha fonksiyonu, karakterin alfabe harfi olup olmadığını kontrol eder
         if (isalpha(text[i]))
         {
             letters++;
